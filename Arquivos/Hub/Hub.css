@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Baskervville', serif;
+}
+img{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 36%;
+}
+
+.background{
+    background-image:  url(/Arquivos/Hub/Imagens/NOPathsCityProto1.svg);
+}
