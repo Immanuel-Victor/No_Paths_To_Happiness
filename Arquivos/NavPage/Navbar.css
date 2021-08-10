@@ -12,6 +12,7 @@ li, a{
     font-size:  16px;
     color: #edf0f1;
     text-decoration: none;
+    word-spacing: 0.1em;
 }
 
 header{
@@ -20,6 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
+    word-spacing: 0.7em;
 }
 
 .logo{
@@ -42,8 +44,8 @@ nav_links li a:hover {
 button{
     font-family: 'STIX Two Text', serif;
     font-size: 16px;
-    padding: 9px 25px;
-    background-color: rgba(254,127,45,1);
+    padding: 6px 25px;
+    background-color: rgb(247, 132, 55);
     border: 0.3px solid #32322C;
     border-radius: 50px;
     cursor: pointer;
@@ -51,5 +53,5 @@ button{
 }
 
 button:hover{
-    background-color: rgba(254,127,45,0.9);
+    background-color: rgba(254,127,45,0.7);
 }
