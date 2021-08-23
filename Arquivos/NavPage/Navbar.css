@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+body{
+    font-family: 'Alagard';
+}
 
 * {
     box-sizing: border-box;
@@ -7,7 +9,7 @@
 }
 
 li, a{
-    font-family: 'STIX Two Text', serif;
+    font-family: 'Alagard';
     font-weight: 400;
     font-size:  16px;
     color: #edf0f1;
@@ -37,21 +39,6 @@ nav .nav_links li {
     transition: all 0.3s ease 0s;
 }
 
-nav_links li a:hover {
+a:hover {
     color: #0C7489;
-}
-
-button{
-    font-family: 'STIX Two Text', serif;
-    font-size: 16px;
-    padding: 6px 25px;
-    background-color: rgb(247, 132, 55);
-    border: 0.3px solid #32322C;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-button:hover{
-    background-color: rgba(254,127,45,0.7);
 }

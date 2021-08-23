@@ -3,12 +3,12 @@
 body{
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Baskervville', serif;
 }
 img{
     position: relative;
+    width: 300px;
     margin-top: 5%;
-    margin-left: 36%;
+    margin-left: 40%;
 }
 
 .background{

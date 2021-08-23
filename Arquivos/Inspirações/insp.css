@@ -1,0 +1,102 @@
+body{
+    font-family: 'Alagard';
+}
+
+header{
+    background-color: #639bff;
+}
+
+li a{
+    color: black;
+}
+li a:hover{
+    color: #1F2B2E;
+}
+
+
+div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:0px;
+    margin:0px;
+    height:125vh;
+}
+
+
+
+img{
+    margin:30px;
+    border-radius: 10px;
+    opacity: 0.825;
+}
+p{
+    margin: 0px 15px;
+}
+
+
+.grid-container {
+    display:grid;
+    grid-template: "Temas" 
+                                "Sally_Face" 125vh
+                                "The_Messenger"  125vh
+                                "Hike" 125vh
+                                "Dungeon" 125vh
+                                "Knight"  125vh
+                                ;
+}
+
+.Temas{
+grid-area: Temas;
+background: linear-gradient(180deg,#639bff , #4D3785);
+}
+
+.Sally_Face{
+    grid-area: Sally_Face;
+    background: linear-gradient(180deg,#4D3785 ,#43D07F, #392A8C);
+}
+
+.Sally_Face a:hover{
+    color:#43D07F;
+}
+
+.The_Messenger{
+    grid-area: The_Messenger;
+    background: linear-gradient(180deg,#392A8C ,#9698E3, #AA3815);
+}
+
+.The_Messenger a:hover{
+    color:#9698E3;
+}
+
+.Hike{
+    grid-area: Hike;
+    background: linear-gradient(180deg,#AA3815,#CF973F, #612C25);
+}
+
+.Hike a:hover{
+    color: #AA3815;
+}
+
+.Dungeon{
+    grid-area: Dungeon;
+    background: linear-gradient(180deg,#612C25, #2c1411,#1F2B2E);
+}
+.Dungeon a:hover{
+    color: #130908;
+}
+
+.Knight{
+    grid-area: Knight;
+    background: linear-gradient(180deg,#1F2B2E, #939C9C,#1F2B2E);
+}
+
+.Knight a:hover{
+    color: #939C9C;
+}
+
+.msn{
+    width:616px;
+    height: 353px;
+}

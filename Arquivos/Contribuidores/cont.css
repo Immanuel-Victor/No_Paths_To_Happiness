@@ -1,0 +1,72 @@
+section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    background-color: #CCAE9D;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+li,a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+
+
+
+.grid-container{
+    display:grid;
+    grid-template: "agradecimentos" 100vh
+                                            "Antonia" 100vh
+                                            "Artur" 100vh
+                                            "Adrian" 100vh    
+                                            ;
+    text-align:center;
+}
+
+.agradecimentos{
+    grid-area: agradecimentos;
+     background: linear-gradient(180deg,#CCAE9D,#5c4d46 );
+
+}
+
+.Antonia{
+    grid-area: Antonia;
+    background: linear-gradient(180deg,#5c4d46,#B9B2C3);
+}
+
+.Artur{
+    grid-area: Artur;
+    background: linear-gradient(180deg,#B9B2C3,#393A48);
+}
+
+.Adrian{
+    grid-area: Adrian;
+    background: linear-gradient(180deg,#393A48,#292828);
+}
+
+.fotoamigo{
+    width: 230px;
+    height: 290px;
+    margin:30px;
+    border-radius: 15px;
+}
+
+
+.icon{
+    width:  35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
