@@ -26,11 +26,7 @@ div{
 
 
 
-img{
-    margin:30px;
-    border-radius: 10px;
-    opacity: 0.825;
-}
+
 p{
     margin: 0px 15px;
 }
@@ -99,4 +95,7 @@ background: linear-gradient(180deg,#639bff , #4D3785);
 .msn{
     width:616px;
     height: 353px;
+        margin:30px;
+        border-radius: 10px;
+        opacity: 0.825;
 }

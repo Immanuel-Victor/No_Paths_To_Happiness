@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(180deg,#88d4ab,#14746f);
+}
+
+li a{
+    color: black;
+}
+
+header{
+    background: #7ecca5
+}
+
+li a:hover{
+    color: #1F2B2E;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.topo{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#eu{
+
+    height:150px;
+    border-radius: 50%;
+    border: 5px solid #14746f;
+}
+
+h1{
+    text-align:center;
+}
+
+h1,h3,p{
+    margin: 10px;
+}
+
+div .contato li {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato ul li{
+    margin: 10px;
+}
+
+
+div .contato li a {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.icon{
+    width:  35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
