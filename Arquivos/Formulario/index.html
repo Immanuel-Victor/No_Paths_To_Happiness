@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  type="text/css" href="/Arquivos/NavPage/Navbar.css">
+    <link rel="stylesheet" type="text/css" href="/Arquivos/Formulario/form.css">
     <link rel="shortcut icon" href="/Arquivos/Logo2.png" type="image/x-icon">
     <title>No Paths To Happiness</title>
 </head>
@@ -17,48 +18,56 @@
                      <li><a href="/Arquivos/Cenarios/index.html" target=""> Cenarios </a></li>
                      <li><a href="/Arquivos/Mecanicas/index.html" target=""> Mecanicas</a></li>
                      <li><a href="/Arquivos/Inspirações/index.html" target=""> Inspirações</a></li>
-                     <li><a href="/Arquivos/Formulario/index.html" target="">Receba Noticias</a></li>
+                     <li><a href="/Arquivos/NavPage/index.html" target=""> Inicio</a></li>
                      <li><a href="/Arquivos/Contribuidores/index.html" target=""> Contribuidores</a></li>
                      <li><a href="/Arquivos/Criador/index.html" target=""> Criador</a></li>
                  </ul>
              </nav>
             
          </header>
+
+    <section class="page">
     <div class="tema">
         <h1> Receba Noticias </h1>
             <p> Fique por dentro das atualizações acerca do projeto. Apenas preencha esse Formulario para que possa entrar na lista de contato.</p> 
      </div>
             <div class="Noticias">
-                <form class="formulario">
+                <form class="formulario" action = "https://formspree.io/f/xpzkogqk" method="post">
                     <div class="form-control">
                     <div class="form-groupl">
-                        <label id="Nome" for="Nome"> Nome </label>
-                            <input type="text" class="form-group" id="Nome" name="Nome" placeholder="Insira seu nome" autofocus="true" required />
+                        <label class="form-textInp" id="Nome" for="Nome"> Nome </label>
+                            <input type="text" class="form-textInp" id="Nome" name="Nome" placeholder="Insira seu nome" autofocus="true" required />
                     </div>
                     <div class="form-group">
-                            <label id="email" for="email">E-Mail </label>
-                                <input type="email" class="form-group" id="email" name="email" placeholder="Insira seu e-mail" required/>
+                            <label class="form-textInp" id="email" for="email">E-Mail </label>
+                                <input type="email" class="form-textInp" id="email" name="email" placeholder="Insira seu e-mail" required/>
                     </div>
-                    <div class="form-group">
-                        <p> Qual aspecto do jogo você gostou mais?<span class="clue">(Marque tudo que achar cabivel) </span> </p>
-                            <label>
-                                <input name="arte" type="checkbox" class="checkboxes" value="arte"/>Estilo de Arte
-                            </label>
-                            <label>
-                                <input name="conceito" type="checkbox" class="checkboxes" value="conceito"/>Conceito
-                            </label>
-                            <label>
-                                <input name="mecanicas" type="checkbox" class="checkboxes" value="mecanicas"/>Mecanicas
-                            </label>
+                    <div class="form-checkbox-Inp">
+                        <p id="check-p"> Qual aspecto do jogo você gostou mais?<span class="clue"> (Marque tudo que achar cabivel) </span> </p>
+                        <div class=checkbox">
+                                <input name="arte" type="checkbox" class="checkboxes" value="arte"/>
+                            </label> Estilo de Arte <label >
+                        </div>
+                        <div class=checkbox">         
+                                <input name="conceito" type="checkbox" class="checkboxes" value="conceito"/>
+                            <label>Conceito</label>
+                        </div>
+                        <div class=checkbox">
+                            
+                                <input name="mecanicas" type="checkbox" class="checkboxes" value="mecanicas"/>
+                            <label>Mecanicas</label>
+                        </div>
                     </div>
                         
-                    <div class="form-group">
+                    <div class="form-textareaInp">
                         <p>Deixe aqui algum comentario ou sugestão!</p>
                         <textarea id="sugestoes" class="textarea" name="sugestoes" placeholder="Deixe uma sugestão ou comentario aqui..."></textarea>
                         </div>
-                        <button class="botao" type="submit">Envie!</button>
+                        <button  id="botaoSub" type="submit">Envie !</button>
+                        <button id="botaoRes" type="reset">Limpe !</button>
                     </div>
                 </form>
             </div>
+        </section>
 </body>
 </html>

@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(180deg,#006466,#4d194d);
+}
+
+li a:hover{
+    color: #1F2B2E;
+}
+
+header{
+    background: #056065;
+}
+
+#pageName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mecanicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.mecanicasList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista_mec{
+    display: block;
+    background: linear-gradient(120deg,#d1b3c4,#735d78);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(41, 17, 17);
+}
+
+.lista_mec  img{
+    margin-right: 10px;
+}
+
+.mecanicasList ul li{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.Jogabilidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:100vh;
+}
+
+h1,h3,p{
+    margin: 11px;
+}
+
+li,a{
+    color: black;
+}
