@@ -30,8 +30,6 @@ header{
 }
 
 .form-textInp{
-    
-    font-family: 'Alagard';
     display:flex;
     width: 33.5rem;
     height: 2rem;
@@ -56,14 +54,12 @@ header{
 .textarea{
     border-radius: 5px;
     border: 1px solid black;
-    font-family: 'Alagard';
     width: 33.5rem;
     height: 8rem;
     margin-bottom: 10px;
 }
 
 button{
-    font-family: 'Alagard';
     font-size: 16px;
     width: 16.7rem;
     height: 2rem;
@@ -72,11 +68,11 @@ button{
 }
 
 #botaoSub{
-    background-color: #615FDE;
+    background-color: #b1b0f7;
 }
 
 #botaoRes{
-    background-color: #DC1F04;
+    background-color: #fcc2b9;
 }
 
 

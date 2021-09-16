@@ -1,0 +1,59 @@
+header{
+    background: #fef1fa;
+}
+li, a{
+    color: black;
+}
+
+h3,h1{
+    font-weight: normal;
+}
+
+#cenarios{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+}
+
+#titulo{
+    background: linear-gradient(180deg,#fff1fa,#FCE6F4);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    width:100%;
+}
+
+#praia{
+    background: linear-gradient(180deg,#FCE6F4,#F3C07F,#F59C2A);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    
+}
+
+#becos{
+    background: linear-gradient(180deg,#F59C2A,#724F51);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+}
+
+#imagens{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+
+div img{
+    margin: 10px;
+    width:650px;
+    height: 360px;
+}
