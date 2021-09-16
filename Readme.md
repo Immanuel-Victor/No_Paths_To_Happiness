@@ -3,4 +3,6 @@ Esse é o projeto de um site para o meu jogo que será lançado por volta de (TB
 Além disso, a pagina referente aos cenários do jogo ainda está faltando devido a falta de tempo que estou tendo para produzir as pixel Arts, espero que isso mude logo e possa finalizá-las. no mais é isso.
 
 Disclaimer: The font used on this website is the font "Alagard" made by Hewett Tsoi
+
+
 Nota: A fonte usada nesse website é a font "Alagard" criada por Hewett Tsoi
