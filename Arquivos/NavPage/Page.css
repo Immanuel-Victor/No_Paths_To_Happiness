@@ -11,7 +11,7 @@ header{
 }
 
 .viewport{
-    background: url(/Arquivos/NavPage/images/sea.svg);
+    background: url(/Arquivos/NavPage/images/beach.svg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
