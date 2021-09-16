@@ -1,0 +1,17 @@
+#botaoCodeSand{
+    height: 50px;
+    border-radius: 3px;
+
+}
+
+body{
+    background: linear-gradient(180deg, #9C4C74, #763154,#3A1025);
+    margin:0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html{
+    height: 100%;
+}
